@@ -1,8 +1,3 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 .App {
   text-align: center;
 }
@@ -128,7 +123,6 @@ input:focus {
   margin-left: 3rem;
   margin-top: 0;
   padding-top: 0;
-  /* display: none; */
 }
 h5 {
   color: #2fa5bd;
@@ -147,15 +141,10 @@ h5:hover {
 }
 .observess {
   color: black;
-  /* color: green; */
   border: 1px solid #cdd0d1;
   border-radius: 0.2rem;
   border-right: none;
 }
-
-/* .nav {
-  background: #ebf3f5;
-} */
 
 nav {
   background: #ebf3f5;
@@ -225,24 +214,17 @@ a {
   border-radius: 0.5rem;
   margin: 9rem auto;
 }
-.clac-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 12rem;
-  height: 18rem;
-  overflow: hidden;
-}
+
 .keys-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   width: 12rem;
-  height: 12rem;
+  height: 15rem;
 }
 .left-wrapper {
   display: flex;
-  width: 9rem;
+  height: 15rem;
   flex-wrap: wrap;
 }
 .calc-button,
@@ -268,7 +250,9 @@ a {
 .calc-signs {
   background-color: rgb(243, 119, 73);
 }
-.clear,
+.clear {
+  width: 6rem;
+}
 .result {
   width: 12rem;
   height: 3rem;
@@ -276,7 +260,6 @@ a {
 }
 .result {
   pointer-events: none;
-  /* background-color: black; */
   border: none;
 }
 @media only screen and (max-width: 768px) {
@@ -284,7 +267,6 @@ a {
     display: block;
   }
   .main-nav {
-    /* padding: 3rem 0; */
     display: none;
   }
   .fist {
@@ -297,9 +279,7 @@ a {
     width: 100%;
     overflow-x: hidden;
   }
-  .sect {
-    /* width: 50%; */
-  }
+
   .aside {
     width: 100%;
     text-align: left;
